@@ -41,7 +41,7 @@ jobs:
           # Preshared key
           preshared_key:
           # Useful for NAT traversal
-          keepalive: 25
+          # keepalive: 25
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script

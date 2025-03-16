@@ -16,7 +16,7 @@ jobs:
       - name: Install OpenVPN
         run: |
           sudo apt update
-          sudo apt install -y openvpn openvpn-systemd-resolved
+          sudo apt install -y openvpn openvpn-systemd-resolved isc-dhcp-client iproute2
       - name: Connect to Asee VPN
         uses: "kota65535/github-openvpn-connect-action@v2"
         with:
